@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="Vector.png" alt="logo de Alura" class="vector">
+            
+        </header>
+
+        <main>
+            <section class="section1">
+                 <textarea class="area" placeholder="Ingrese el texto aqui" onkeypress="return (event.charCode == 209 || event.charCode == 241 || (event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || (event.charCode==[32]))"></textarea>
+                 <p><img src="nota.png" alt="signo" class="nota"> Solo letras minusculas y sin acentos</p>
+                 <div class="botones">
+                    <input type="button" class="boton-encrip" value="Encriptar">
+                    <input type="button" class="boton-desencrip" value="Desencriptar">
+                    <input type="button" class="boton-limpiar" value="Limpiar">
+                 </div>
+                 
+            </section>
+
+
+            <section class="section2">
+                <div class="muneco">
+                    <img src="Muñeco.png" alt="imagen de un muñeco">
+
+                </div>
+                <div class="texto-h3">
+                    <h3>Ningun mensaje ha sido encontrado</h3>
+                </div>
+                <div class="parrafo">
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+
+                <div class="resultado">
+                    <h3>Mensaje encriptado:</h3>
+                    <p class="Escrito"></p>
+                </div>
+                <div class="copiar">
+                    <input type="button" class="boton-copiar" value="Copiar">
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <footer>
+            <p>Proyecto Encriptador de Meilin Fonseca Navarro.
+            Todos los derechos reservados. <img src="flag.png" alt="logo de Costa Rica" class="flag"></p>
+        </footer>
+
+
+        <script src="documento.js"></script>
+       
+
+
+    </body>
+
+
+
+
+
+
+
+</html>
